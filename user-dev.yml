@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: de123321
+    url: jdbc:mysql://localhost:3306/demo?characterEncoding=utf-8&useSSL=false&serverTimezone=EST
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: localhost
+    port: 6379
+  jpa:
+    show-sql: true
+
+env: dev
