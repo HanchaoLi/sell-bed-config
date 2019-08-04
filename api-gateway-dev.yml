@@ -4,4 +4,4 @@ zuul:
       path: /myProduct/**
       serviceId: product
   ignored-patterns:
-    - /**/product/decreaseStock
+    - /**/product/listForOrder
