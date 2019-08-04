@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+  ignored-patterns:
+    - /**/product/listForOrder
+    - /**/product/decreaseStock
