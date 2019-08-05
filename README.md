@@ -7,6 +7,4 @@ profiles: environment
 
 lable: brancn
 
-check config by entering url in browser: localhost:port/order-a.yml
-
-## order.yml: store config for order service
+check config by entering url in browser, eg: localhost:port/order-a.yml
